@@ -35,7 +35,7 @@ const getData = () => {
 const sendData = () => {
   sendHttpRequest('POST','https://reqres.in/api/register', {
     email: "eve.holt@reqres.in",
-    // password: "pistol"
+    password: "pistol"
   }).then(responseData =>{
     console.log(responseData);
   }).catch(err => {
